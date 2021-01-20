@@ -1,0 +1,6 @@
+/**app.wxss**/
+.container{
+  min-width: 100vw;
+  min-height: 100vh;
+  background: #f2f5f7;
+}

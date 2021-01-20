@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+<van-search
+  value="{{ value }}"
+  input-align="center"
+  placeholder="请输入搜索关键词"
+/>
+<block wx:for="{{list}}" wx:for-item="item">
+ <view bindtap="getItem" data-id="{{item.id}}">{{item.name}}</view>
+</block>
+</view>
